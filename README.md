@@ -9,7 +9,7 @@ const App = () => {
   let [count, setCount] = useState(0);
   let [num, setNum] = useState(0);
   useEffect(() => {
-    setCount(3);
+    console.log('num has update');
   }, [num]);
 
   return (
