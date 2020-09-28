@@ -1,0 +1,35 @@
+{
+  "name": "mact",
+  "version": "1.0.0",
+  "description": "react like frame",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c && gzip-size dist/mact.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muwoo/mact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "muwoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muwoo/mact/issues"
+  },
+  "homepage": "https://github.com/muwoo/mact#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/core": "^7.0.0-0",
+    "cross-env": "^5.2.0",
+    "gzip-size-cli": "^3.0.0",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-license": "^0.8.1",
+    "rollup-plugin-terser": "^5.1.2",
+    "terser": "^4.1.2"
+  }
+}

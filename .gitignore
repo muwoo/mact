@@ -1,0 +1,13 @@
+node_modules/
+lib/
+es/
+.vscode/
+.idea/
+.DS_Store
+h5/
+dest/
+example/.cache
+example/dist
+.cache
+dist
+

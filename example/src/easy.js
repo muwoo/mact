@@ -1,8 +1,3 @@
-# mact
-react like frame
-
-
-```jsx
 import {render, h, useState, useEffect} from '../../src';
 
 const App = () => {
@@ -21,4 +16,3 @@ const App = () => {
 };
 
 render(<App />, document.getElementById('root'));
-```
